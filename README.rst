@@ -18,6 +18,7 @@ Send words
 
 Package that send a word or words set to service and get the syllabes of each phrase sent
 
+pip install send_words
 
 * Free software: MIT license
 * Documentation: https://send-words.readthedocs.io.
