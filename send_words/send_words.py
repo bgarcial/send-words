@@ -35,5 +35,6 @@ def sendingWords(pathfile):
                 "The word divide in silabes is: {result}\n".format(item=item, result=result))
 
 def quotes():
+    """Show some random quotes"""
     quotes = ['Hola', 'Como estas', 'Contento compartiendo en el workshop']
     print(choice(quotes))
