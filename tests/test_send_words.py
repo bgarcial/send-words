@@ -7,7 +7,7 @@ import pytest
 
 from click.testing import CliRunner
 
-from send_words import send_words
+from send_words import quotes
 from send_words import cli
 
 
