@@ -16,7 +16,7 @@ Send words
 
 
 
-Package that send a word or words set to service and get the syllabes of each phrase sent
+Package that send a word or words set to service and get the syllabes of each phrase sent and show some random quotes
 
 pip install send_words
 

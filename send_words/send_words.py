@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-
+from __future__ import unicode_literals
+from random import choice
 """Main module."""
 
 # -*- coding: utf-8 -*-
@@ -33,4 +34,6 @@ def sendingWords(pathfile):
             output.write("My word sent is: {item}. "
                 "The word divide in silabes is: {result}\n".format(item=item, result=result))
 
-
+def quotes():
+    quotes = ['Hola', 'Como estas', 'Contento compartiendo en el workshop']
+    print(choice(quotes))
