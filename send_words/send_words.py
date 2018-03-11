@@ -16,6 +16,7 @@ https://gitter.im/twoscoopspress/packaging-workshop-march10
 from selenium import webdriver
 
 def sendingWords(pathfile):
+    """Send some words list to sillable service"""
     driver = webdriver.Chrome()
     driver.get("http://tip.iatext.ulpgc.es/silabas/Default.aspx")
 
